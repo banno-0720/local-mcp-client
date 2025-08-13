@@ -21,10 +21,9 @@ uv sync
 uv run server.py --server_type=sse
 ```
 
-- Run the client (choose the appropriate client script, e.g. `client.py` for OpenAI or `ollama_client.py` for Ollama):
-
+- Run the client 
 ```sh
-uv run client.py
+uv run ollama_client.py
 ```
 
 - Interact with the agent in your terminal. Type your message and the agent will use the available tools to answer your queries.
